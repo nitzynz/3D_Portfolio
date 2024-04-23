@@ -29,6 +29,7 @@ import {
   typescript,
   Threejs,
   vue,
+  outlook,
 } from "../assets/icons";
 
 export const skills = [
@@ -168,9 +169,9 @@ export const experiences = [
 
 export const socialLinks = [
   {
-    name: "Contact",
-    iconUrl: contact,
-    link: "/contact",
+    name: "Email",
+    iconUrl: outlook,
+    link: "mailto:ngovinda@buffalo.edu?subject=Email From Your Website",
   },
   {
     name: "GitHub",
