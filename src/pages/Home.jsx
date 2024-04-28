@@ -103,6 +103,14 @@ const Home = () => {
           />
         </Suspense>
       </Canvas>
+      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 p-4">
+        {/* <p className="text-sm text-gray-700 font-semibold">
+          Rotate using arrows &#8592;&#8594;
+        </p> */}
+        <p className="text-sm text-gray-700 font-semibold">
+          Hold cursor and rotate
+        </p>
+      </div>
 
       <div className="absolute bottom-2 left-2">
         <img
@@ -112,6 +120,22 @@ const Home = () => {
           className="w-10 h-10 cursor-pointer object-contain"
         />
       </div>
+      {/* Rotation instructions
+      <div className="absolute bottom-4 right-4 bg-white rounded-full p-4 shadow-md">
+        <p className="text-sm text-gray-700 font-semibold">
+          Rotate using arrows &#8592;&#8594;
+        </p>
+        <p className="text-xs text-gray-600 font-semibold">
+          or hold cursor and rotate
+        </p>
+      </div> */}
+      {/* Rotation instructions */}
+      {/* <div className="absolute bottom-4 right-4 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg p-4 shadow-lg">
+        <p className="text-sm text-white font-semibold mb-2">
+          Rotate using arrows &#8594;&#8592;
+        </p>
+        <p className="text-xs text-gray-200">or hold cursor and rotate</p>
+      </div> */}
     </section>
   );
 };

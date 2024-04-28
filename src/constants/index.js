@@ -194,6 +194,7 @@ export const projects = [
     name: "Yoom, a Zoom clone",
     description:
       "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
+    link: "https://github.com/nitzynz/Zoom_Clone",
   },
   {
     iconUrl: wf,
@@ -201,6 +202,7 @@ export const projects = [
     name: "Wallet Friendly",
     description:
       "Developed using Next.js and Bright Data's webunlocker, this e-commerce product scraping site is designed to assist users in making informed decisions. It notifies users when a product drops in price and helps competitors by alerting them when the product is out of stock, all managed through cron jobs.",
+    link: "https://github.com/nitzynz/WalletFriendly",
   },
   {
     iconUrl: portfolio,
@@ -208,6 +210,7 @@ export const projects = [
     name: "3D Portfolio Design",
     description:
       "Designed this 3D portfolio using React, Javascript, Tailwind, Three.js and Vite.",
+    link: "https://github.com/nitzynz/3D_Portfolio",
   },
   {
     iconUrl: web,
@@ -215,6 +218,7 @@ export const projects = [
     name: "Cloudware IT Website Design",
     description:
       "Created a responsive website for mobile and desktop devices using React.js, Tailwind, Vite, HTML5/ CSS3, Jest, E2E testing, increasing the client satisfaction by 100% and the revenue by 220%. Managed code repositories, review tools, and continuous integration processes to improve website analytics and end user feedback.",
+    link: "https://github.com/nitzynz/",
   },
   {
     iconUrl: tuktuk,
@@ -222,6 +226,7 @@ export const projects = [
     name: "TukTuk Carpooling",
     description:
       "Created javascript prototypes and concept sketches for mobile and web version of the application, utilizing figma, canvas, D3, SVG. Designed and architected aesthetic responsive front-end UI for both mobile and web applications, using React.js, HTML5/CSS3, increasing the revenue by 120%. Integrated AWS services, EC2, load balancing, lambda, increasing the application efficiency by 25%.",
+    link: "https://github.com/nitzynz/",
   },
   {
     iconUrl: CISCO,
@@ -229,5 +234,6 @@ export const projects = [
     name: "Network Service Automation",
     description:
       "Developed and deployed an AI chatbot, powered by the knowledge articles of CISCO, to guide the engineers on network fixes.",
+    link: "https://github.com/nitzynz/",
   },
 ];
