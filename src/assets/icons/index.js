@@ -22,6 +22,8 @@ import car from "./car.svg";
 import estate from "./estate.svg";
 import pricewise from "./pricewise.svg";
 import tuktuk from "./tuktuk.png";
+import wf from "./wf.svg";
+import yoom from "./yoom.svg";
 import portfolio from "./portfolio.png";
 import web from "./web.png";
 import snapgram from "./snapgram.svg";
@@ -56,6 +58,8 @@ export {
   estate,
   pricewise,
   tuktuk,
+  yoom,
+  wf,
   portfolio,
   web,
   snapgram,

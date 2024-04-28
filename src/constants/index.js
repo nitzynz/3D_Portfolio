@@ -17,6 +17,8 @@ import {
   nodejs,
   pricewise,
   tuktuk,
+  wf,
+  yoom,
   web,
   portfolio,
   react,
@@ -186,6 +188,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: yoom,
+    theme: "btn-back-black",
+    name: "Yoom, a Zoom clone",
+    description:
+      "Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.",
+  },
+  {
+    iconUrl: wf,
+    theme: "btn-back-blue",
+    name: "Wallet Friendly",
+    description:
+      "Developed using Next.js and Bright Data's webunlocker, this e-commerce product scraping site is designed to assist users in making informed decisions. It notifies users when a product drops in price and helps competitors by alerting them when the product is out of stock, all managed through cron jobs.",
+  },
   {
     iconUrl: portfolio,
     theme: "btn-back-black",
