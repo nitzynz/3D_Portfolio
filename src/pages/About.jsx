@@ -22,7 +22,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer with 2+ years experience in developing solutions for
+          Software Engineer with 3+ years experience in developing solutions for
           a Fortune 500 company.
         </p>
       </div>

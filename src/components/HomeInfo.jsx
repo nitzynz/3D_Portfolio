@@ -12,7 +12,7 @@ const HomeInfo = ({ currentStage }) => {
         </span>
         👋
         <br />
-        Software Engineer with 2+ years of experience building solution for a
+        Software Engineer with 3+ years of experience building solution for a
         Fortune 500 company{" "}
       </h1>
     );
