@@ -1,4 +1,12 @@
-import { meta, shopify, starbucks, tesla, CISCO, LT } from "../assets/images";
+import {
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  CISCO,
+  LT,
+  cloudwareLogo,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -130,16 +138,30 @@ export const skills = [
 export const experiences = [
   {
     title: "Software Engineer",
+    company_name: "Cloudware IT",
+    icon: cloudwareLogo,
+    iconBg: "#accbe1",
+    date: "January 2024",
+    points: [
+      "Designed an interactive graphical website, switching over from multi-page website to single page, using Javascript, React, Tailwind, HTML5/ CSS3, increasing the revenue by 220%.",
+      "Developed own CAPTCHA, reducing the contact form spamming by 75%.",
+      "Collaborated with the President to create digital marketing designs leading to additional client subscriptions.",
+      "Built RESTful APIs that served data to the front-end based on dynamic user input, handling 20000+ concurrent users.",
+      "Formulating technical designs for independent problems, driving cross-team collaboration, upholding software reliability practices and proactively identifying areas of future work.",
+    ],
+  },
+  {
+    title: "Software Engineer",
     company_name: "CISCO",
     icon: CISCO,
     iconBg: "#accbe1",
     date: "August 2020 - July 2022",
     points: [
-      "Led the development of interactive interfaces for a Fortune 500 financial/ banking organization, increasing the usage by 45%, using the latest technologies of HTML5/CSS3, JavaScript, React.js, Tailwind, Jest, Cypress, TypeScript, SASS, CSS-Crush",
-      "Designed and deployed interactive dashboards, leading to a 30% reduction in data analysis time and improved decision-making processes",
-      "Optimized existing data visualizations based on user feedback and data analysis, resulting in a 15% increase in user engagement",
-      "Developed and maintained high-performance backend systems, resulting in a 15% increase in website traffic and conversion rates",
-      "Developed Python scripts to automate data cleaning and transformation processes, increasing efficiency by 30%",
+      "Led the development of multiple applications for a Fortune 500 financial/ banking organization, using Java, Kotlin, Android Studio",
+      "Refactored outdated Node.js, Python, Java codebases to facilitate modularity, scalability, & testability.",
+      "Developed and maintained high-performance backend systems, resulting in a 15% increase in website traffic and conversion rates.",
+      "Built RESTful APIs that served data to the front-end based on dynamic user input, handling 20000+ concurrent users.",
+      "Developed Python scripts to automate data cleaning and transformation processes, increasing efficiency by 30%.",
     ],
   },
   {
@@ -149,10 +171,9 @@ export const experiences = [
     iconBg: "#accbe1",
     date: "January 2020 - June 2020",
     points: [
-      "Implemented two modern responsive and graphical interfaces using HTML5/CSS3, JavaScript, TypeScript, WebGL, React.js, resulting in a 30% spike in traffic",
-      "Executed front-end development strategies, resulting in a 15% increase in application performance",
-      "Designed and deployed an automated workflow for resolving customer queries, leading to an increase in customer satisfaction of 35%.",
-      "Analyzed user behaviors, preferences to create custom interfaces based on feedback; resulting in 80% increase in customer satisfaction",
+      "Created several critical error processing pipelines, and a framework to scale easy deployment and monitoring of new pipelines.",
+      "Designed and deployed an automated workflow for resolving customer queries, leading to an increase in customer satisfaction of 35%",
+      " Analyzed user behaviors, preferences to create custom interfaces based on feedback; resulting in 80% increase in customer satisfaction.",
     ],
   },
   {

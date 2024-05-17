@@ -5,7 +5,18 @@ import starbucks from "./starbucks.png";
 import tesla from "./tesla.png";
 import CISCO from "./CISCO.png";
 import LT from "./LT.png";
+import cloudwareLogo from "./cloudwareLogo.png";
 
 import logo from "./logo.svg";
 
-export { hero, meta, shopify, starbucks, tesla, CISCO, LT, logo };
+export {
+  hero,
+  meta,
+  shopify,
+  starbucks,
+  tesla,
+  CISCO,
+  LT,
+  cloudwareLogo,
+  logo,
+};
