@@ -6,10 +6,10 @@ import { About, Contact, Home, Projects } from "./pages";
 const App = () => {
   return (
     <main className="bg-dark-bg min-h-screen">
-      <Router>
+      <Router basename="/3D_Portfolio">
         <Navbar />
         <Routes>
-          <Route path="/3D_Portfolio/" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route
             path="/*"
             element={
