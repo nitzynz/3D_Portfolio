@@ -16,6 +16,13 @@ export default {
         },
         blue: {
           500: "#2b77e7"
+        },
+        dark: {
+          bg: "#0d1117",
+          surface: "#161b22",
+          border: "#30363d",
+          text: "#c9d1d9",
+          muted: "#8b949e"
         }
       },
       fontFamily: {

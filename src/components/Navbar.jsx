@@ -12,7 +12,9 @@ const Navbar = () => {
         <NavLink
           to="/about"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive
+              ? "text-[#61afef]"
+              : "text-dark-text hover:text-white transition-colors"
           }
         >
           About
@@ -20,7 +22,9 @@ const Navbar = () => {
         <NavLink
           to="/projects"
           className={({ isActive }) =>
-            isActive ? "text-blue-600" : "text-black"
+            isActive
+              ? "text-[#61afef]"
+              : "text-dark-text hover:text-white transition-colors"
           }
         >
           Projects

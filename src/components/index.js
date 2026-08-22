@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import HomeInfo from "./HomeInfo";
 import CodeHero from "./CodeHero";
+import EditorWindow from "./EditorWindow";
 
 export {
     CTA,
@@ -13,5 +14,6 @@ export {
     Navbar,
     Footer,
     HomeInfo,
-    CodeHero
+    CodeHero,
+    EditorWindow
 }
