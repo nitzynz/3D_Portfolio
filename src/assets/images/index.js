@@ -6,6 +6,7 @@ import tesla from "./tesla.png";
 import CISCO from "./CISCO.png";
 import LT from "./LT.png";
 import cloudwareLogo from "./cloudwareLogo.png";
+import paypal from "./paypal.svg";
 
 import logo from "./logo.svg";
 
@@ -18,5 +19,6 @@ export {
   CISCO,
   LT,
   cloudwareLogo,
+  paypal,
   logo,
 };

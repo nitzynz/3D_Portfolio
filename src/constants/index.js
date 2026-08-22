@@ -6,6 +6,7 @@ import {
   CISCO,
   LT,
   cloudwareLogo,
+  paypal,
 } from "../assets/images";
 import {
   car,
@@ -136,6 +137,21 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+    title: "Software Engineer 2 (Scrum Master)",
+    company_name: "PayPal",
+    icon: paypal,
+    iconBg: "#accbe1",
+    date: "October 2024 - Present",
+    points: [
+      "Worked on the systems integration effort to merge PayPal and Venmo's billion-dollar platforms, porting PayPal's transaction infrastructure to handle Venmo traffic at scale, processing ~$1B in transactions daily in real time with a 100% success rate.",
+      "Built and scaled the transaction and rewards processing pipeline for the PayPal Rewards feature in the UK, leveraging PayPal's next-generation architecture to support high-volume, low-latency, and highly consistent financial transactions at scale.",
+      "Developed and integrated AI-driven developer tools and internal plugins, streamlining debugging, testing, and code generation workflows, and improving overall engineering productivity while reducing development cycles by 35%+.",
+      "Designed retry logic for transactions failing under different conditions to facilitate a high probability of successful transactions.",
+      "Spearheading the Innovation track for a 10-engineer team, driving exploratory projects and new technical initiatives.",
+      "Built a PR-gating tool that flags Jira hygiene issues before merge, drastically reducing hygiene drops across engineering teams, and a companion tool that creates and moves Jira stories, giving leadership real-time visibility into project tracking.",
+    ],
+  },
   {
     title: "Software Engineer",
     company_name: "Cloudware IT",
